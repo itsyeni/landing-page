@@ -118,10 +118,13 @@ img{
 .section-three{
     background-color: #E5E7EB;
     padding: 100px 300px;
-    
-    
+    display: flex;
+    justify-content: center;
 }
 
+.container{
+    max-width: 900px;
+}
 .quote{
     font-size: 36px;
     color: #1F2937;
@@ -138,17 +141,19 @@ img{
 
 .section-four{
     flex:1;
+    display: flex;
+    justify-content: center;
 }
 .content{
     background-color: #3882F6;
    display: flex;
    justify-content: center;
    align-items: center;
-   border-radius: 10px;
+   border-radius: 20px;
    gap: 100px;
    margin: 100px 300px;
-   padding: 40px 0px;
-   
+   padding: 40px 100px;
+   max-width: 1000px;
    
 }
 
