@@ -8,16 +8,15 @@ body{
     display: flex;
     justify-content: space-between;
     color: white;
-    background-color: rgb(35, 70, 82);
-    padding: 10px 35px;
+    background-color: #1F2937;
+    padding: 20px 250px;
     align-items: center;
 
 }
 
-.logo, .main{
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: bold;
+.logo{
+    height: auto;
+    width: 80px;
 }
 
 ul{
@@ -73,6 +72,7 @@ a, .minor{
     font-weight: bold;
     border-radius: 5px;
     padding: 5px 20px;
+    font-size: 15px;
     
 }
 
@@ -100,17 +100,18 @@ img{
     justify-content: center;
     align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
  
 .box img{
-    width: 150px;
+    width: 200px;
     height: 150px;
-    border: solid #3882F6 8px  ; 
+    border: solid #1F2937 3px  ; 
     border-radius: 15px;
 }
 
 .info-subtext{
-    max-width: 150px;
+    max-width: 200px;
     margin-top: 8px;
 }
 
@@ -143,6 +144,12 @@ img{
     flex:1;
     display: flex;
     justify-content: center;
+}
+
+.main{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 .content{
     background-color: #3882F6;
